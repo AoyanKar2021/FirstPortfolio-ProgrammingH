@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: green;
+}
+.wrapper{
+    display: flex;
+}
+.left-part {
+    width: 30%;
+    height: 100vh;
+}
+.personal-image img {
+    max-width: 100%;
+    height: auto;
+    border: 10px groove gray;
+    border-radius: 10px;
+}
+.right-part {
+    width: 70%;
+    height: 100vh;
+    display: flex;
+}
