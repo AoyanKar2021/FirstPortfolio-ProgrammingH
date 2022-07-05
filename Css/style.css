@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    font-family: 'Lobster', cursive;
 }
 body{
     background-color: #FFFFFF;
+    
+font-family: 'Merriweather', serif;
 }
 .main-wrapper {
     display: flex;
@@ -41,11 +44,14 @@ article.Left-Details {
     padding: 20px;
 }
 .personal-details h1 {
-    font-size: 40px;
+    font-size: 64px;
     text-transform: uppercase;
-    letter-spacing: 0px;
-    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: left;
     color: #FFA001;
+    font-family: 'Lobster', cursive;
+    
 }
 .personal-details h2{
     font-size: 40px;
@@ -61,40 +67,171 @@ article.Left-Details {
 }
 button {
     width: 200px;
-    height: 50px;
-    border-radius: 20px;
+    height: 54px;
+    border-radius: 50px;
+    border: 2px solid #FFA001;
+    font-size: 20px;
 }
 .right-navigation {
-    width: 203px;
-    font-size: 20px;
+    /* width: 203px;
+    font-size: 20px; */
 }
 .right-navigation ul {
     list-style: none;
 }
-.right-navigation ul li {
-   
-    background-color: #FFA001;
+a.nav-menu {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
     border-radius: 40px;
-    padding-left: 20px;
-    font-size: 20px;
-    text-transform: uppercase;
-    margin: 10px;
+    background: #FFA001;
+    overflow: hidden;
 }
-.right-navigation li a {
+span.menu-text {
+    line-height: 50px;
+    font-size: 20px;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.icon i {
+    line-height: 50px;
+    font-size: 20px;
+}
+a.nav-menu:hover{
+width: 200px;
+transition: all 0.5s;
+}
+/* Contact */
+.contact-section {
+    margin: 60px 0px;
+    height: 100vh;
+}
+.Contact {
+    display: flex;
+    padding: 50px 140px;
+}
+.mainframe-left{
+    width: 30%;
+
+}
+.mainframe-right {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.mainframe-right form {
+    width: 80%;
+}
+.mainframe-first-title h2 {
+    font-size: 32px;
+    color: #3e3c3c;
+}
+.mainframe-first-title p {
+    width: 100%;
+    line-height: 32px;
+    padding: 10px 0px;
+    font-size: 24px;
+    text-align: justify;
+    margin-top: 18px;
+}
+.contact-data {
+    padding: 10px 0px;
+}
+.contact-data ul {
+    list-style: none;
+}
+.contact-data ul li {
+    
+}
+.contact-data ul li p {
+    
+}
+.contact-data li p i {
+    font-size: 40px;
+    color: #FFA001;
+    padding: 10px 20px 0px 0px;
+}
+
+.section-title {
+    text-align: center;
+}
+.section-title h1 {
+    color: #FFA001;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+.mainframe form {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+input.input-item {
+    width: 40%;
+    padding: 12px 22px;
+    border: 1px solid #ddddd9;
+    border-radius: 50px;
+    font-size: 22px;
+    box-shadow: 5px 5px 11px -9px grey;
+}
+textarea.input-item-message {
+    width: 100%;
+    font-size: 22px;
+    border-radius: 36px;
+    padding: 12px 22px;
+    border: 1px solid #ddddd9;
+    box-shadow: 5px 5px 11px -9px grey;
+}
+.input-button {
     text-decoration: none;
+    color: rgb(41, 39, 39);
+    
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 248px;
+    padding-left: 20px;
+    box-shadow: inset 0 0 0 0 #ffa201df;
+    outline: none;
+    transition: ease-out 0.3s;
+    border: 1px solid #FFA001;
 }
-.right-navigation li a i {
-    font-size: 28px;
+.input-button i {
+    font-size: 38px;
     background: #FFA001;
-    width: 35px;
-    display: flex;
-    height: 35px;
-    justify-content: center;
-    align-items: center;
-    color: rgb(252, 249, 249);
-    border-radius: 40px;
+    color: #000000d0;;
     padding: 10px;
+    border-radius: 34px;
+}
+.input-button:hover {
+    /* background-color: #FFA001; */
+    box-shadow: inset -280px 0 0 0 #FFA001;
+    color: #FFFFFF;
+    
+}
+
+
+.right-navigation ul li:hover  {
+   
+    box-shadow: inset -280px 0 0 0 #FFA001;
+    
+  
 }
